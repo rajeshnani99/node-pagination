@@ -4,8 +4,7 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
 	try {
-		const mongodbUrl = `mongodb+srv://nadsoft123:nadsoft123@cluster0.znlrw.mongodb.net/student-managment
-?retryWrites=true&w=majority&appName=Cluster0`; // exposed because of testing
+		const mongodbUrl = "please add your database here";
 		await mongoose.connect(mongodbUrl, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
